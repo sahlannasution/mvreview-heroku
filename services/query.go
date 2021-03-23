@@ -1,9 +1,9 @@
 package services
 
 import (
-	"mvreview-heroku/args"
-	"mvreview-heroku/resolver"
-	"mvreview-heroku/types"
+	"github.com/sahlannasution/mvreview-heroku/args"
+	"github.com/sahlannasution/mvreview-heroku/resolver"
+	"github.com/sahlannasution/mvreview-heroku/types"
 
 	"github.com/graphql-go/graphql"
 )

@@ -3,10 +3,11 @@ package middlewares
 import (
 	"fmt"
 	"log"
-	logger "mvreview-heroku/log"
-	"mvreview-heroku/models"
 	"os"
 	"time"
+
+	logger "github.com/sahlannasution/mvreview-heroku/log"
+	"github.com/sahlannasution/mvreview-heroku/models"
 
 	jwt "github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"

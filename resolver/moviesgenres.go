@@ -1,8 +1,8 @@
 package resolver
 
 import (
-	"mvreview-heroku/config"
-	"mvreview-heroku/models"
+	"github.com/sahlannasution/mvreview-heroku/config"
+	"github.com/sahlannasution/mvreview-heroku/models"
 
 	"github.com/graphql-go/graphql"
 )

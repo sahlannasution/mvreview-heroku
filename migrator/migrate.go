@@ -2,7 +2,8 @@ package migrator
 
 import (
 	"fmt"
-	"mvreview-heroku/models"
+
+	"github.com/sahlannasution/mvreview-heroku/models"
 
 	"gorm.io/gorm"
 )

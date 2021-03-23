@@ -3,8 +3,9 @@ package seeder
 import (
 	"fmt"
 	"log"
-	"mvreview-heroku/models"
 	"strconv"
+
+	"github.com/sahlannasution/mvreview-heroku/models"
 
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

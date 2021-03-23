@@ -1,25 +1,19 @@
 package main
 
 import (
-	"mvreview-heroku/config"
-	"mvreview-heroku/middlewares"
-	"mvreview-heroku/migrator"
-	"mvreview-heroku/routes"
-	"mvreview-heroku/schema"
-	"mvreview-heroku/seeder"
 	"net/http"
+
+	"github.com/sahlannasution/mvreview-heroku/config"
+	"github.com/sahlannasution/mvreview-heroku/middlewares"
+	"github.com/sahlannasution/mvreview-heroku/migrator"
+	"github.com/sahlannasution/mvreview-heroku/routes"
+	"github.com/sahlannasution/mvreview-heroku/schema"
+	"github.com/sahlannasution/mvreview-heroku/seeder"
 
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
-
-	// var port string
-	// if err := godotenv.Load(".env"); err != nil {
-	// 	log.Fatalf(err.Error())
-	// } else {
-	// 	port = os.Getenv("PORT")
-	// }
 
 	dbPG := config.Connection() // db Connection
 	StrDB := middlewares.StrDB{DB: dbPG}

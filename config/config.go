@@ -3,8 +3,9 @@ package config // import package
 import (
 	"fmt"
 	"log"
-	logger "mvreview-heroku/log"
 	"os"
+
+	logger "github.com/sahlannasution/mvreview-heroku/log"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"

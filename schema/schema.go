@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"mvreview-heroku/services"
+	"github.com/sahlannasution/mvreview-heroku/services"
 
 	"github.com/graphql-go/graphql"
 )

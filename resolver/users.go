@@ -2,10 +2,11 @@ package resolver
 
 import (
 	"log"
-	"mvreview-heroku/config"
-	logger "mvreview-heroku/log"
-	"mvreview-heroku/models"
 	"time"
+
+	"github.com/sahlannasution/mvreview-heroku/config"
+	logger "github.com/sahlannasution/mvreview-heroku/log"
+	"github.com/sahlannasution/mvreview-heroku/models"
 
 	"github.com/graphql-go/graphql"
 	"golang.org/x/crypto/bcrypt"
